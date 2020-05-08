@@ -7,21 +7,33 @@
 int main(int argc, char* argv[])
 {
 
-	LinkedPoly L;
-	InitPolyn(&L);
+	LinkedPoly La;
+	InitPolyn(&La);
 	int seedexp;
 	int seedcoef;
 	for (int i = 0; i < 20; i++)
+	{	
+		InsertPolyn(&La,i+1, i);
+	}
+	printf("此时多项式为:\nLa=");
+	PrintPolyn(La);
+	printf("La项数为%d\n", lenPolyn(La));
+	LinkedPoly Lb;
+	InitPolyn(&Lb);
+	for (int j = 0; j < 10; j++)
 	{
 		seedexp = rand() % 10;//保证幂在0到十之间，同时也可以测试相同幂能否正确合并
-		seedcoef = rand()%100;
-		//printf("第%d次随机出的多项式为%dx^%d\n  ", i, seedcoef, seedexp);
-		//InsertPolyn(&L, seedcoef, seedexp);
-		InsertPolyn(&L,i+1, i);
+		seedcoef = rand() % 100;
+		printf("第%d次随机出的多项式为%dX^%d\n", j, seedcoef, seedexp);
+		InsertPolyn(&Lb, seedcoef, seedexp);
 	}
-	printf("此时多项式为:\nX=");
-	PrintPolyn(L);
-	printf("此时多项式的项数为%d", lenPolyn(L));
+	printf("Lb=");
+	PrintPolyn(Lb);
+	LinkedPoly Lc;
+	Lc = CalculatePolyn1(La, Lb, -1);
+	printf("Lc=La+Lb=");
+	PrintPolyn(Lc);
+
 	return 0;
 
 

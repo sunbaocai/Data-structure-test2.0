@@ -82,7 +82,8 @@ Status DestroyPolyn(LinkedPoly* L);
 //操作结果：输入 m 项的系数和指数，插入一元多项式 L末尾。
 //可以选择插入末尾，也可以选择比较顺序后再插入相应的位置以保持有序性，这里选择头插法
 //可以选择传递一个结构数组进行批量添加，但这样又需要建立动态数组了
-//如果后续再排序，所要进行的排序算法更加麻烦，而且插入的项可能已经存在，这样无法合并，所以还是插入式排序比较好，同时可以将相同项的合并
+//如果后续再排序，所要进行的排序算法更加麻烦，而且插入的项可能已经存在，这样无法合并，
+//所以还是插入式排序比较好，同时可以将相同项的合并
 Status InsertPolyn(LinkedPoly* L, int coef, int exp);
 
 //初始条件：一元多项式 P 已存在。
@@ -94,7 +95,9 @@ Status PrintPolyn(LinkedPoly L);
 Status ReverseSortPolyn(LinkedPoly* L);
 
 //对多项式进行相加或相减，n为1或-1代表是加还是-
-Status CalculatePolyn(LinkedPoly La, LinkedPoly Lb, LinkedPoly* Lc);
+//这里偷懒，直接加减就ok了，在插入中已经排序好了，但是时间复杂度可能会变大
+//方法1,返回的是一个指针,n绝对是+还是-
+LinkedPoly CalculatePolyn1(LinkedPoly La, LinkedPoly Lb,int n);
 
 //返回多项式的长度，共有多少项
 Status lenPolyn(LinkedPoly L);

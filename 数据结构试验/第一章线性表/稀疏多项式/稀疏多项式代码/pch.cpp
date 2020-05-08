@@ -37,30 +37,34 @@ Status InsertPolyn(LinkedPoly* L, int coef, int exp)
 			q->next->data.coef += coef;
 			if (q->next->data.coef == 0)
 			{
-				(*L)->data.coef -= 1;//可能存在项数变为0 的情况，先不管
+				(*L)->data.coef -= 1;//可能存在项数变为0 的情况，先不管			
 				LinkedPoly s = q->next;
 				q->next = s->next;
-				free(s);				
+				free(s);		
+				if ((*L)->data.coef == 0)
+				{
+					(*L)->next = NULL;
+				}
 			}
-			break;//一开始把这个放在第二个if里面，导致不能break，我裂开了
+			return OK;
+			//break;//一开始把这个放在第二个if里面，导致不能break，我裂开了
 		}
 		if (exp < q->next->data.exp)
 		{
 			p->next = q->next;
 			q->next = p;
 			(*L)->data.coef += 1;
-			break;
+			return OK;
 		}
 		q = q->next;
 
 	}
 	//一开始没设置这个，导致无法写入
-	if (q->next == NULL)
-	{
+	
 		p->next = q->next;
 		q->next = p;
 		(*L)->data.coef += 1;
-	}
+	
 	return OK;
 }
 
@@ -74,12 +78,20 @@ Status PrintPolyn(LinkedPoly L)
 	{
 		printf("%d", p->data.coef);
 		if(p->data.exp)
-		printf("x^%d", p->data.exp);
+		printf("X^%d", p->data.exp);
 		p = p->next;
-		if (p != NULL)//如果后面还有多项式，打印+号
+		/*if (p != NULL)//如果后面还有多项式，打印+号
+		{
+			printf("+");
+		}*/
+		if (p!=NULL && p->data.coef > 0 )//一开始设置没判断最后一个。导致打印最后一个元素后直接卡死无法下一步操作
 		{
 			printf("+");
 		}
+		/*if (p->data.coef < 0)
+		{
+			printf("-");
+		}*/
 	}
 	printf("\n");
 	return OK;
@@ -98,4 +110,30 @@ Status lenPolyn(LinkedPoly L)
 		exit(OVERFLOW);
 	return L->data.coef;
 }
-// 当使用预编译的头时，需要使用此源文件，编译才能成功。
+
+LinkedPoly CalculatePolyn1(LinkedPoly La, LinkedPoly Lb, int n)
+{
+	LinkedPoly Lc;
+	InitPolyn(&Lc);
+	if (!La && !Lb)
+		exit(OVERFLOW);
+	if (n == 1 || n == -1)
+	{
+		LinkedPoly p = La->next;
+		LinkedPoly q = Lb->next;
+		while (p != NULL)
+		{
+			InsertPolyn(&Lc, p->data.coef, p->data.exp);
+			p = p->next;
+			Lc->data.coef += 1;
+		}
+		while (q != NULL)
+		{
+			InsertPolyn(&Lc, n*(q->data.coef), q->data.exp);
+			q = q->next;
+			Lc->data.coef += 1;
+
+		}
+		return Lc;
+	}
+}
