@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
 	InitPolyn(&La);
 	int seedexp;
 	int seedcoef;
-	for (int i = 0; i < 20; i++)
+	for (int i = 0; i < 10; i++)
 	{	
 		InsertPolyn(&La,i+1, i);
 	}
@@ -30,9 +30,17 @@ int main(int argc, char* argv[])
 	printf("Lb=");
 	PrintPolyn(Lb);
 	LinkedPoly Lc;
-	Lc = CalculatePolyn1(La, Lb, -1);
+	Lc = CalculatePolyn1(La, Lb, 1);
 	printf("Lc=La+Lb=");
 	PrintPolyn(Lc);
+	Lc = CalculatePolyn1(La, Lb, -1);
+	printf("Lc=La-Lb=");
+	PrintPolyn(Lc);
+	printf("-------------------------------------------------\n");
+	printf("下面测试如果链表为空会怎么样:");
+	Lc = CalculatePolyn1(La, La, -1);
+	printf("链表的长度为%d", lenPolyn(Lc));
+
 
 	return 0;
 

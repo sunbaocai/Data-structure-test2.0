@@ -40,11 +40,12 @@ Status InsertPolyn(LinkedPoly* L, int coef, int exp)
 				(*L)->data.coef -= 1;//可能存在项数变为0 的情况，先不管			
 				LinkedPoly s = q->next;
 				q->next = s->next;
-				free(s);		
-				if ((*L)->data.coef == 0)
+				free(s);
+				/*if ((*L)->data.coef == 0)
 				{
 					(*L)->next = NULL;
 				}
+			好像不需要这个也行*/
 			}
 			return OK;
 			//break;//一开始把这个放在第二个if里面，导致不能break，我裂开了
@@ -136,4 +137,20 @@ LinkedPoly CalculatePolyn1(LinkedPoly La, LinkedPoly Lb, int n)
 		}
 		return Lc;
 	}
+}
+
+
+Status DestroyPolyn(LinkedPoly* L)
+{
+	if (!(*L) || !(*L)->next)
+		exit(OVERFLOW);
+	LinkedPoly p, q;
+	p = (*L);
+	while (p != NULL)
+	{
+		q = p;
+		p = p->next;
+		free(q);
+	}
+	return OK;
 }

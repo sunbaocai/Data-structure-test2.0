@@ -1,4 +1,0 @@
-﻿  pch.cpp
-C:\Users\晚晚\source\repos\Project3\pch.cpp(139): warning C4715: “CalculatePolyn1”: 不是所有的控件路径都返回值
-  Project3.cpp
-  Project3.vcxproj -> C:\Users\晚晚\source\repos\Project3\Debug\Project3.exe

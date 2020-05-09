@@ -90,10 +90,6 @@ Status InsertPolyn(LinkedPoly* L, int coef, int exp);
 //操作结果：打印输出一元多项式 P。
 Status PrintPolyn(LinkedPoly L);
 
-//对多项式进行排序,n为1表示从小到大排序，为0表示从大到小，默认n=1XXXc语言限制不能在函数定义和函数声明中同时指定默认参数
-//改为将多项式翻转为由大到小排列，原排序在插入中就已经完成
-Status ReverseSortPolyn(LinkedPoly* L);
-
 //对多项式进行相加或相减，n为1或-1代表是加还是-
 //这里偷懒，直接加减就ok了，在插入中已经排序好了，但是时间复杂度可能会变大
 //方法1,返回的是一个指针,n绝对是+还是-
