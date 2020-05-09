@@ -1,0 +1,28 @@
+Status PrintPolyn(LinkedPoly L)
+{
+	if (!L || !L->next)//如果L不存在或者为空表
+		exit(OVERFLOW);
+	LinkedPoly p;
+	p = L->next;
+	while (p != NULL)
+	{
+		printf("%d", p->data.coef);
+		if(p->data.exp)
+		printf("X^%d", p->data.exp);
+		p = p->next;
+		/*if (p != NULL)//如果后面还有多项式，打印+号
+		{
+			printf("+");
+		}*/
+		if (p!=NULL && p->data.coef > 0 )//一开始设置没判断最后一个。导致打印最后一个元素后直接卡死无法下一步操作
+		{
+			printf("+");
+		}
+		/*if (p->data.coef < 0)
+		{
+			printf("-");
+		}*/
+	}
+	printf("\n");
+	return OK;
+}

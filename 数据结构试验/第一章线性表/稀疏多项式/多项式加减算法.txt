@@ -1,0 +1,26 @@
+LinkedPoly CalculatePolyn1(LinkedPoly La, LinkedPoly Lb, int n)
+{
+	LinkedPoly Lc;
+	InitPolyn(&Lc);
+	if (!La && !Lb)
+		exit(OVERFLOW);
+	if (n == 1 || n == -1)
+	{
+		LinkedPoly p = La->next;
+		LinkedPoly q = Lb->next;
+		while (p != NULL)
+		{
+			InsertPolyn(&Lc, p->data.coef, p->data.exp);
+			p = p->next;
+			Lc->data.coef += 1;
+		}
+		while (q != NULL)
+		{
+			InsertPolyn(&Lc, n*(q->data.coef), q->data.exp);
+			q = q->next;
+			Lc->data.coef += 1;
+
+		}
+		return Lc;
+	}
+}

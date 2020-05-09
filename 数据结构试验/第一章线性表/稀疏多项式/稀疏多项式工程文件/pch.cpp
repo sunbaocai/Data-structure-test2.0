@@ -58,7 +58,6 @@ Status InsertPolyn(LinkedPoly* L, int coef, int exp)
 			return OK;
 		}
 		q = q->next;
-
 	}
 	//一开始没设置这个，导致无法写入
 	
