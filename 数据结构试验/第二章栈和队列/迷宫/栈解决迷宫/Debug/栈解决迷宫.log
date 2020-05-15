@@ -1,0 +1,193 @@
+﻿  Maze.c
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Status.h(24,2): error C2061: 语法错误: 标识符“PosType”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Status.h(26,1): error C2059: 语法错误:“}”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(29,5): error C2061: 语法错误: 标识符“SElemType_Sq”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(30,17): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(32,1): error C2059: 语法错误:“}”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(35,28): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(35,28): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(35,31): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(40,31): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(40,31): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(40,34): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(45,29): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(45,29): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(45,32): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(50,30): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(50,30): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(50,30): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(50,31): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(55,28): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(55,28): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(55,28): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(55,29): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(60,26): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(60,26): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(60,26): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(60,27): error C2059: 语法错误:“,”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(60,44): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(65,23): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(65,23): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(65,41): error C2146: 语法错误: 缺少“;”(在标识符“e”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(65,42): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(70,22): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(70,22): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(70,39): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(70,42): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(70,41): error C2040: “e”:“int *”与“int”的间接寻址级别不同
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(75,33): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(75,33): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(75,33): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(75,34): error C2059: 语法错误:“,”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(14,28): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(14,28): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(14,31): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(15,1): error C2054: 在“S”之后应输入“(”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(26,31): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(26,31): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(26,34): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(27,1): error C2054: 在“S”之后应输入“(”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(37,29): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(37,29): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(37,32): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(38,1): error C2054: 在“S”之后应输入“(”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(44,30): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(44,30): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(44,30): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(44,31): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(45,1): error C2449: 在文件范围内找到“{”(是否缺少函数头?)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(50,1): error C2059: 语法错误:“}”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(57,26): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(57,26): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(57,26): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(57,27): error C2059: 语法错误:“,”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(57,44): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(68,23): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(68,23): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(68,41): error C2146: 语法错误: 缺少“;”(在标识符“e”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(68,42): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(69,1): error C2054: 在“e”之后应输入“(”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(85,22): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(85,22): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(85,39): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(85,42): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(85,41): error C2040: “e”:“int *”与“int”的间接寻址级别不同
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(86,1): error C2054: 在“e”之后应输入“(”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(96,33): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(96,33): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(96,33): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(96,34): error C2059: 语法错误:“,”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.h(71,34): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.h(71,34): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.h(71,36): error C2040: “e”:“int *”与“int”的间接寻址级别不同
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.h(71,43): error C2059: 语法错误:“类型”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.h(71,68): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(21,10): error C2065: “SqStack”: 未声明的标识符
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(21,10): error C2146: 语法错误: 缺少“;”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(22,15): error C2146: 语法错误: 缺少“;”(在标识符“nodeInf”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(22,22): error C2065: “nodeInf”: 未声明的标识符
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(26,14): warning C4013: “InitStack_Sq”未定义；假设外部返回 int
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(37,19): warning C4013: “SetSElemType_Sq”未定义；假设外部返回 int
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(37,28): error C2065: “nodeInf”: 未声明的标识符
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(38,11): warning C4013: “Push_Sq”未定义；假设外部返回 int
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(38,23): error C2065: “nodeInf”: 未声明的标识符
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(51,21): warning C4013: “StackEmpty_Sq”未定义；假设外部返回 int
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(53,11): warning C4013: “Pop_Sq”未定义；假设外部返回 int
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(53,24): error C2065: “nodeInf”: 未声明的标识符
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(55,18): error C2065: “nodeInf”: 未声明的标识符
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(55,19): error C2224: “.di”的左侧必须具有结构/联合类型
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(57,23): error C2065: “nodeInf”: 未声明的标识符
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(57,24): error C2224: “.seat”的左侧必须具有结构/联合类型
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(57,34): error C2440: “函数”: 无法从“MazeType (*)[15]”转换为“PosType”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(57,34): warning C4024: “MarkPrint”: 形参和实参 1 的类型不同
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(57,34): error C2198: “MarkPrint”: 用于调用的参数太少
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(60,25): error C2065: “nodeInf”: 未声明的标识符
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(63,15): error C2065: “nodeInf”: 未声明的标识符
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(63,16): error C2224: “.di”的左侧必须具有结构/联合类型
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(65,18): error C2065: “nodeInf”: 未声明的标识符
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(65,19): error C2224: “.seat”的左侧必须具有结构/联合类型
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.c(65,19): fatal error C1003: 错误计数超过 100；正在停止编译
+  SequenceStack.c
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Status.h(24,2): error C2061: 语法错误: 标识符“PosType”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Status.h(26,1): error C2059: 语法错误:“}”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.h(71,34): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.h(71,34): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.h(71,43): error C2059: 语法错误:“类型”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\Maze.h(71,68): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(29,5): error C2061: 语法错误: 标识符“SElemType_Sq”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(30,17): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(32,1): error C2059: 语法错误:“}”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(35,28): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(35,28): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(35,31): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(40,31): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(40,31): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(40,34): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(45,29): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(45,29): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(45,32): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(50,30): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(50,30): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(50,30): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(50,31): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(55,28): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(55,28): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(55,28): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(55,29): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(60,26): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(60,26): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(60,26): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(60,27): error C2059: 语法错误:“,”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(60,44): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(65,23): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(65,23): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(65,41): error C2146: 语法错误: 缺少“;”(在标识符“e”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(65,42): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(65,41): error C2040: “e”:“int”与“int *”的间接寻址级别不同
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(70,22): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(70,22): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(70,39): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(70,42): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(75,33): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(75,33): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(75,33): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.h(75,34): error C2059: 语法错误:“,”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(14,28): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(14,28): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(14,31): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(15,1): error C2054: 在“S”之后应输入“(”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(26,31): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(26,31): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(26,34): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(27,1): error C2054: 在“S”之后应输入“(”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(37,29): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(37,29): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(37,32): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(38,1): error C2054: 在“S”之后应输入“(”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(44,30): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(44,30): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(44,30): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(44,31): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(45,1): error C2449: 在文件范围内找到“{”(是否缺少函数头?)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(50,1): error C2059: 语法错误:“}”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(57,26): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(57,26): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(57,26): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(57,27): error C2059: 语法错误:“,”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(57,44): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(68,23): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(68,23): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(68,41): error C2146: 语法错误: 缺少“;”(在标识符“e”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(68,42): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(68,41): error C2040: “e”:“int”与“int *”的间接寻址级别不同
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(69,1): error C2054: 在“e”之后应输入“(”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(85,22): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(85,22): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(85,39): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(85,42): error C2059: 语法错误:“)”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(86,1): error C2054: 在“e”之后应输入“(”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(96,33): error C2146: 语法错误: 缺少“)”(在标识符“S”的前面)
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(96,33): error C2061: 语法错误: 标识符“S”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(96,33): error C2059: 语法错误:“;”
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第二章栈和队列\迷宫\栈解决迷宫\SequenceStack.c(96,34): error C2059: 语法错误:“,”
+  正在生成代码...
