@@ -1,0 +1,84 @@
+/*
+  * ████████ 算法3.3 ████████
+  *
+  * 迷宫寻路
+  *
+  * 使用穷举法，找到一条可行通路即返回
+  */
+Status MazePath(MazeType maze, PosType start, PosType end) {
+    SqStack S;              // 存储探索过的通道块
+    SElemType e;            // e存储当前通道块信息
+    PosType curPos;         // 当前位置
+    int curStep;            // 当前通道块序号
+
+    // 初始化轨迹栈
+    InitStack(&S);
+
+    curPos = start;     // 设定当前位置为"入口位置"
+    curStep = 1;        // 探索第一步
+
+    do {
+        // 如果当前位置可通过（要求改位置是从未曾探索的通道块）
+        if (Pass(maze, curPos)) {
+            // 留下初始足迹，即留下向东访问的标记
+            FootPrint(maze, curPos);
+
+            // 构造一个通道块信息并返回
+            e = Construct(curStep, curPos, East);
+
+            // 加入路径
+            Push(&S, e);
+
+            // 如果到达终点
+            if (Equals(curPos, end) == TRUE) {
+                printf("\n寻路成功！！\n\n");
+                return TRUE;
+            }
+
+            // 获取下一个应当探索的位置，即当前位置的东邻
+            curPos = NextPos(curPos, East);
+
+            // 探索下一步
+            curStep++;
+
+            // 如果当前位置已经探索过了，则考虑修改探索方向
+        }
+        else {
+            // 如果栈不为空（存在探索的必要）
+            if (!StackEmpty(S)) {
+                // 回退到上一个位置
+                Pop(&S, &e);
+
+                // 如果待探索位置的4个方向都探索过，则需要做标记
+                while (e.di == North && !StackEmpty(S)) {
+                    // 留下"死胡同"标记，即从该位置出发的路径都没有通路
+                    MarkPrint(maze, e.seat, Impasse);
+
+                    // 继续回退
+                    Pop(&S, &e);
+                }
+
+                // 如果待探索位置还有剩余可探索的方向
+                if (e.di < North) {
+                    // 改变探索方向，按东南西北的方向轮询
+                    ++e.di;
+
+                    // 在迷宫中留下访问标记，用来观察迷宫状态（教材中没有该步骤）
+                    MarkPrint(maze, e.seat, e.di);
+
+                    // 重新将该位置加入到路径中
+                    Push(&S, e);
+
+                    // 获取下一个应当探索的位置
+                    curPos = NextPos(e.seat, e.di);
+                }
+            }
+        }
+
+        // 栈不为空，意味着还有探索的必要
+    } while (!StackEmpty(S));
+
+    printf("\n寻路失败！！\n\n");
+
+    return FALSE;
+}

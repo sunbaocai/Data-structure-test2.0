@@ -36,9 +36,7 @@ typedef int MazeType[M][N];      // 迷宫类型
 
 /*
  * ████████ 算法3.3 ████████
- *
  * 迷宫寻路
- *
  * 使用穷举法，找到一条可行通路即返回
  */
 Status MazePath(MazeType maze, PosType start, PosType end);

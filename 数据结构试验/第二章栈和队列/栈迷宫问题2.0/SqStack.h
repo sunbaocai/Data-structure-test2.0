@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>     // 提供malloc、realloc、free、exit原型
-#include "Status.h"     //**▲01 绪论**//
+#include "Status.h"     
 
  /* 宏定义 */
 #define STACK_INIT_SIZE 100     // 顺序栈存储空间的初始分配量

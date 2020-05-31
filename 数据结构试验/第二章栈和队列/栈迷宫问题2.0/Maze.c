@@ -1,11 +1,10 @@
 /*==============
  * 迷宫寻路程序
  *
- * 包含算法: 3.3
+ 
  ===============*/
 
-#include "Maze.h"                            //**▲03 栈和队列**//
-
+#include "Maze.h"                           
  /*
   * ████████ 算法3.3 ████████
   *
@@ -22,7 +21,7 @@ Status MazePath(MazeType maze, PosType start, PosType end) {
     // 初始化轨迹栈
     InitStack(&S);
 
-    curPos = start;     // 设定当前位置为"出口位置"
+    curPos = start;     // 设定当前位置为"入口位置"
     curStep = 1;        // 探索第一步
 
     do {
