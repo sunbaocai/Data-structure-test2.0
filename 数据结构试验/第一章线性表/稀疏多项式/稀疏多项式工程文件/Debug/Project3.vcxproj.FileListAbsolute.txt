@@ -1,2 +1,4 @@
 C:\Users\晚晚\source\repos\Project3\Debug\Project3.exe
 C:\Users\晚晚\source\repos\Project3\Debug\Project3.pdb
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第一章线性表\稀疏多项式\稀疏多项式工程文件\Debug\Project3.exe
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第一章线性表\稀疏多项式\稀疏多项式工程文件\Debug\Project3.pdb

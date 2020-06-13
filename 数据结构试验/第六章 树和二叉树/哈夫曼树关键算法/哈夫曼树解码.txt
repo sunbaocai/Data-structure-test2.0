@@ -1,0 +1,39 @@
+/*
+ * 解码
+ * 根据给定的n个赫夫曼编码HC，计算其代表的权值。
+ */
+Status HuffmanDecoding(HuffmanTree HT, HuffmanCode HC, int** w, int n) {
+    int i, j, k;
+    int r;
+    char* s;
+    
+    if(n <= 0) {
+        return ERROR;
+    }
+    
+    (*w) = (int*) malloc(n * sizeof(int));
+    
+    // 根结点位置
+    r = 2 * n - 1;
+    
+    for(i = 1; i <= n; i++) {
+        s = HC[i];
+        
+        k = r;
+        
+        // 从根结点往下找
+        for(j = 0; j < strlen(s); j++) {
+            if(s[j] == '0') {
+                k = HT[k].lchild;   // 向左
+            } else if(s[j] == '1') {
+                k = HT[k].rchild;   // 向右
+            } else {
+                return ERROR;
+            }
+        }
+        
+        (*w)[i - 1] = HT[k].weight;
+    }
+    
+    return OK;
+}

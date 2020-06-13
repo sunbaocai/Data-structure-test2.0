@@ -1,2 +1,4 @@
-﻿  Project3.cpp
-  Project3.vcxproj -> C:\Users\晚晚\source\repos\Project3\Debug\Project3.exe
+﻿  pch.cpp
+C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第一章线性表\稀疏多项式\稀疏多项式工程文件\pch.cpp(139): warning C4715: “CalculatePolyn1”: 不是所有的控件路径都返回值
+  Project3.cpp
+  Project3.vcxproj -> C:\Users\晚晚\Desktop\github\Data-structure-test2.0\数据结构试验\第一章线性表\稀疏多项式\稀疏多项式工程文件\Debug\Project3.exe

@@ -1,0 +1,72 @@
+/*
+ * 初始化环境
+ *
+ * 主要用来初始化权值信息。
+ * 选择从预设的文件path中读取测试数据。
+ *
+ * 可以从控制台读取数据，则path为NULL或者为空串，
+ * 如果需要从文件中读取数据，则需要在path中填写文件名信息。
+ */
+Status InitEnvironment(int** w, int* n, char* path) {
+    FILE* fp;
+    int readFromConsole;    // 是否从控制台读取数据
+    
+    // 如果没有文件路径信息，则从控制台读取输入
+    readFromConsole = path == NULL || strcmp(path, "") == 0;
+    //不存在 或者文件为空 
+    if(readFromConsole) {
+        printf("请输入赫夫曼树结点信息...\n");
+        Init(w, n, NULL);
+    } else {
+        // 打开文件，准备读取测试数据
+        fp = fopen(path, "r");
+        if(fp == NULL) {
+            return ERROR;
+        }
+        Init(w, n, fp);
+        fclose(fp);
+    }
+    
+    return OK;
+}
+
+
+
+// 初始化环境的内部实现
+static Status Init(int** w, int* n, FILE* fp) {
+    int i;
+    
+    if(fp == NULL) {
+        printf("请输入赫夫曼树叶子结点数量：");
+        scanf("%d", n);
+        
+        if(*n <= 0) {
+            *w = NULL;
+            return ERROR;
+        }
+        
+        *w = (int*) malloc((*n) * sizeof(int));
+        
+        printf("请输入 %d 个权值信息：", *n);
+        for(i = 0; i < *n; i++) {
+            scanf("%d", *w + i);
+        }
+    } else {
+        // 录入元素数量
+        ReadData(fp, "%d", n);
+        
+        if(*n <= 0) {
+            *w = NULL;
+            return ERROR;
+        }
+        
+        *w = (int*) malloc((*n) * sizeof(int));
+        
+        // 录入结点权值信息
+        for(i = 0; i < *n; i++) {
+            ReadData(fp, "%d", *w + i);
+        }
+    }
+    
+    return OK;
+}
